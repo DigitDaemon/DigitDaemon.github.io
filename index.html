@@ -4,38 +4,53 @@
     <title>Thomas Landry</title>
     <meta name="descritpion" content="Thomas Landry's personal website">
     <meta name="keywords" content="software engineering, software engineer, programming, programmer, resume, portfolio, projects, computer science, c#, .net, dotnet, python, Thomas Landry">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
     <! -- Heading -->
-    <header>
-        <h1>Thomas Landry</h1>
-        <h2>Software Engineer</h2>
-        <h3><em>ThomasCLandry95@gmail.com</em></h3>
-        <a href="https://github.com/DigitDaemon" target="_blank">Github Account</a>
-    </header>
+    <div class="container">
+        <div class="header-style">
+            <header>
+                <h1>Thomas Landry</h1>
+                <h2>Software Engineer</h2>
+                <h3><em>ThomasCLandry95@gmail.com</em></h3>
+                <a href="https://github.com/DigitDaemon" target="_blank">Github Account</a>
+            </header>
+        </div>
 
-    <hr />
+        <hr />
 
-    <! -- Content -->
-    
-    <section>
-        <h2>Projects:</h2>
-        <article>
-            <h3>Twitch_RCG(Role Chatting Game)</h3>
-            <a href="https://github.com/DigitDaemon/TwitchRCG_Role_Chatting_Game" target="_blank">Github Repo</a>
-            <p>My senior project. A Twitch chat game built as a distributed system using Kafka and a PostgreSQL database. Written in C# </p>
-            <a href="Twitch_RCG.html">Read More</a>
-        </article>
-        <br>
+        <! -- Content -->
+    <div id="personal-bio" class="topic-block">
+        <h2>Personal Bio</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
 
-        <article>
-            <h3>Quantum Tamagotchi</h3>
-            <a href="https://github.com/DigitDaemon/CS3650_QuantumTamagotchi">Github Repo</a>
-            <p>A text game written in python and using IBM's qiskit library. Simulates taking care of a simple pet on a 16 Qbit quantum chip.</p>
-            <a href="quantumTamagotchi.html">Read More</a>
-        </article>
-        <br>
-        <!-- Template
+
+        <div class="topic-block" id="project-block">
+            <h2>Projects:</h2>
+
+            <div class="article-block">
+                <article>
+                    <h3 style="font-style: italic">Twitch_RCG(Role Chatting Game)</h3>
+                    <a href="https://github.com/DigitDaemon/TwitchRCG_Role_Chatting_Game" target="_blank">Github Repo</a>
+                    <p>My senior project. A Twitch chat game built as a distributed system using Kafka and a PostgreSQL database. Written in C# </p>
+                    <a href="Projects/Twitch_RCG.html">Read More</a>
+                </article>
+            </div>
+
+            <div class="article-block">
+                <article>
+                    <h3>Quantum Tamagotchi</h3>
+                    <a href="https://github.com/DigitDaemon/CS3650_QuantumTamagotchi">Github Repo</a>
+                    <p>A text game written in python and using IBM's qiskit library. Simulates taking care of a simple pet on a 16 Qbit quantum chip.</p>
+                    <a href="Projects/quantumTamagotchi.html">Read More</a>
+                </article>
+            </div>
+
+            <!-- Template
             
         <article>
             <h3>Project title</h3>
@@ -47,8 +62,8 @@
             
         -->
 
-    </section>
-
+        </div>
+    </div>
 
 </body>
 </html>

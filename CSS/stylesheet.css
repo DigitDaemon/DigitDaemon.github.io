@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+    background-color: black;
+    color: white;
+}
+
+a {
+    color:purple
+}
+
+a:hover{
+    color:red;
+}
+
+.container {
+    width: 80%; 
+    margin:auto;
+    font-family: Tahoma;
+}
+
+.header-style{
+    background:#4f4f4f;
+    
+}
+
+.header-style h2{
+    color:red;
+}
+
+.topic-block{
+    border: 3px solid #4f4f4f;
+    padding:8px;
+    margin:10px 0px;
+}
+
+.article-block{
+    background: #ccc;
+    color:black;
+    padding:10px 0px;
+}
