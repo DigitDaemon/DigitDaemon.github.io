@@ -36,5 +36,19 @@ a:hover{
 .article-block{
     background: #ccc;
     color:black;
-    padding:10px 0px;
+    padding:2px 5px;
+    margin: 15px 0px;
+}
+
+.article-block h3{
+    font-weight:900
+}
+
+.project-video{
+    padding: 10px 0px;
+}
+
+.project-video iframe{
+    height: 700px;
+    width: 1000px;
 }
