@@ -52,3 +52,17 @@ a:hover{
     height: 315px;
     width: 560px;
 }
+
+.project-content h4{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+.project-content p{
+    margin-top: 2px;
+}
+
+.project-header {
+    padding: 3px;
+    border: 3px solid #4f4f4f;
+}

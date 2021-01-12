@@ -6,18 +6,36 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="project-header">
             <small><a href="../index.html">Home Page</a></small>
             <h1>Twitch_RCG(Role CHatting Game)</h1>
             <h2>C#, Kafka, PostgreSQL, ML.net</h2>
             <a href="https://github.com/DigitDaemon/TwitchRCG_Role_Chatting_Game" target="_blank">Github Repository</a>
         </header>
+        <div class="project-content">
+            <h4>Project Summary:</h4>
+            <p>TwitchRCG was my take on the classic text based games that many streamers have running in their stream's chat. I wanted to build somethign that was easy to access for community members but had a great depth of persoinalization to each player. The creative basis for my game was the popular tabletop roleplaying game Dungeons and Dragons. DnD is very accessable and well known to many people on Twitch which made it a great thematic insperation.</p>
+
+            <h4>C#:</h4>
+            <p>I choose to write the applications that made up the project in C# using .NET core. The syntax of C# is very similar to Java but improved in many ways, making it easier to use and more flexible in my experience. Additionally it is well supported by Microsoft with libraries like ML.net and by community members with custom and open source libraries and utilities. It also works very well in the Visual Studio IDE, my preferred development environment.</p>
+
+            <h4>Kafka:</h4>
+            <p>When looking for a solution to connect the different applications that made up my project, I wanted a solution that was scalable. Despite the small scale of my actual implementation, I wanted to approach the project in a way that should foresight and left the door open to further development and possible wide scale release in the future. With that in mind I choose Kafka because it is widely scalable and able to handle a large amount of traffic between applications and it is freely available through the Apache project. It also provides redundancy through Apache Zookeeper making it a durable solution.</p>
+
+            <h4>PostgreSQL:</h4>
+            <p>As far as databases go, I knew from the start that I wanted to use a relational database for data management. PostgreSQL was a free solution and came well recommended by several of my friends as well as from commercial implementation.</p>
+
+            <h4>ML.Net:</h4>
+            <p>The final piece of the puzzle and really the heart of the project, was deconstructing the contents of user’s messages into some kind of emotional score. Machine learning was the clear solution to that challenge and Microsoft's ML.net utility offered a simple and easy to use solution. It runs the sample data through multiple machine learning algorithms and finds the one that tests most accurately to the training data. I was able to quickly utilize ML.net to implement the message analysis functionality that I needed for the project.</p>
+
+            <h4>Postmortem:</h4>
+            <p>The biggest take away from doing this project was that dividing up the project into multiple applications was unnecessary for the scope of the project. Asynchronous threading would have more than sufficed for the needs of the project. However, I stand by that implementation because it gave me great freedom to prototype partial solutions without needing to bring the entire project online.<br /><br />In addition, I would have leveraged the use of Enums more if I were to do the project over again.</p>
+        </div>
+        <div class="project-video">
+            <h2>Project Videos</h2>
+            <h5>How I linked the different programs in the project using Apache Kafka</h5>
+            <iframe src="https://www.youtube.com/embed/Nw16StCstrQ"></iframe>
+        </div>
     </div>
 </body>
-<div class="container">
-    <div class="project-video">
-        <h5>How I linked the different programs in the project using Apache Kafka</h5>
-        <iframe src="https://www.youtube.com/embed/Nw16StCstrQ"></iframe>
-    </div>
-</div>
 </html>
